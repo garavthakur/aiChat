@@ -8,7 +8,7 @@ export default function Dashboard() {
         <nav className="navbar navbar-expand-lg p-4 justify-content-md-end">
           <div className="container">
             <div className="header_col_1">
-              <a className="navbar-brand" href="/">
+              <a className="navbar-brand" href="/dashboard">
                 <img
                   src="/images/Ai-Bot-logo.png"
                   alt="Logo"
@@ -319,7 +319,7 @@ export default function Dashboard() {
               </h2>
               <div className="progress_info">
                 <div className="progress-inner">
-                  <h6>Bulk of SMS</h6>
+                  <h6>Generate Images</h6>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated"
@@ -330,7 +330,7 @@ export default function Dashboard() {
                   </div>
                 </div>
                 <div className="progress-inner">
-                  <h6>Voice</h6>
+                  <h6>Generate Videos</h6>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated"
@@ -341,7 +341,7 @@ export default function Dashboard() {
                   </div>
                 </div>
                 <div className="progress-inner">
-                  <h6>HLR Lookup</h6>
+                  <h6>Remove Image Background</h6>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated"
@@ -352,7 +352,7 @@ export default function Dashboard() {
                   </div>
                 </div>
                 <div className="progress-inner">
-                  <h6>Telecom Solution</h6>
+                  <h6>Image Cleaning</h6>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-striped progress-bar-animated"
