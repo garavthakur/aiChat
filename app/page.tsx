@@ -1,4 +1,4 @@
-
+import Link from 'next/link';
 export default function Home() {
   return (<>
     <div style={{ backgroundColor: "#f3f3f3" }}>
@@ -12,12 +12,10 @@ export default function Home() {
                 Connect your business using our customized business solution.
               </p>
               <div className="header_col_3 d-flex justify-content-between p-0">
-                <a
-                  className="btn btn-outline-dark text-light"
-                  href="index.html"
-                >
-                  Get Started
-                </a>
+               
+                <Link href="/dashboard" className='btn btn-outline-dark text-light'>
+                Get Started
+      </Link>
               </div>
             </div>
             <div className="col-lg-6 exp_left position-relative">
